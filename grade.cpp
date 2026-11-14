@@ -6,7 +6,9 @@ int main() {
     cout << "marks = ";
     cin >> marks;
 
-    if(marks>=90 && marks <=100) {
+    if(marks>100 || marks<0) {
+        cout << "Invalid Marks";
+    }else if(marks>=90 && marks <=100) {
         cout << "grade = A\nPass";
     } else if(marks<90 && marks>=80) {
         cout << "grade = B\nPass";
