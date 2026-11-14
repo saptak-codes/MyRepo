@@ -10,10 +10,10 @@ int main() {
     cout << "b = ";
     cin >> b;
 
-    float sum = (float) a+b;
-    float subtraction = (float) a-b;
-    float multiplication = (float) a*b;
-    float division = (float) a/b;
+    float sum = a+b;
+    float subtraction = a-b;
+    float multiplication =  a*b;
+    float division = a/b;
 
         cout << "sum = " << sum << endl;
         cout << "subtraction (a-b) = " << subtraction << endl;
