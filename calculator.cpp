@@ -18,7 +18,13 @@ int main() {
         cout << "sum = " << sum << endl;
         cout << "subtraction (a-b) = " << subtraction << endl;
         cout << "product = " << multiplication << endl;
-        cout << "division (a/b) = " << division << endl;
+        
+        if(b!=0) {
+            cout << "division (a/b) = " << division << endl;
+        } else {
+            cout << "division = Undefined" << endl;
+        }
+        
 
     return 0;
 }
