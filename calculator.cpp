@@ -2,17 +2,17 @@
 using namespace std;
 
 int main() {
-    int a;
+    float a;
     cout << "a = ";
     cin >> a;
 
-    int b;
+    float b;
     cout << "b = ";
     cin >> b;
 
-    int sum = a+b;
-    int subtraction = a-b;
-    int multiplication = a*b;
+    float sum = (float) a+b;
+    float subtraction = (float) a-b;
+    float multiplication = (float) a*b;
     float division = (float) a/b;
 
         cout << "sum = " << sum << endl;
