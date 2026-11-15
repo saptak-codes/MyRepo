@@ -28,7 +28,7 @@ if(M < 0 || M>100 || E<0 ||E>100 || S<0 ||S>100 ||H<0 || H>100 || B<0 || B>100) 
 cout << "Total Marks = 500\n";
 
 float percentage = (float)(M+E+S+H+B)/5;
-cout << "Percentage = " << percentage << endl;
+cout << "Percentage = " << percentage << "%" << endl;
 
 int marks =  M+E+S+H+B;
     if(marks<=500 && marks>=450) {
